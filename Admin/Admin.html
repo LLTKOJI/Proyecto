@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/Admin.css">
+    <script src="https://kit.fontawesome.com/28c0bb64a2.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div id="blur"> 
+        <header><h1>Express Logistics</h1></header>
+        <section class="middle">
+            <aside>
+                <section class="molde-aside"><button class="botones-laterales" id="btn1"  onclick="hacerClick(1)">EMPRESAS</button></section>
+                <section class="molde-aside"><button class="botones-laterales" id="btn2" onclick="hacerClick(2)">MOTORISTA</button></section>
+                <section class="molde-aside"><button class="botones-laterales" id="btn3" onclick="hacerClick(3)">ORDENES</button></section>
+                <section class="molde-aside"><button class="botones-laterales" id="btn4" onclick="hacerClick(4)">PRODUCTOS</button></section>
+            </aside>
+            <div id="container-main">
+                <div id="content-0" class="main">
+                    <h4>Ultimas Valoraciones</h4>
+                    <section class="cliente-valoracion"><div><h3 class="texto-0">Cliente: Daniel</h3></div>   <div><h3><i class="fa-solid fa-thumbs-up     valoracion"></i></h3> </div> </section>
+                    <section class="cliente-valoracion"><div><h3 class="texto-0">Cliente: TristeBoy</h3></div>      <div><h3><i class="fa-solid fa-thumbs-down       valoracion"></i></h3> </div></section>
+                    <section class="cliente-valoracion"><div><h3 class="texto-0">Cliente: MorteritoMan</h3></div>       <div><h3><i class="fa-solid fa-thumbs-up     valoracion"></i></h3></div> </section>
+                </div>
+                
+                <div hidden id="content-1"></div>
+                <div hidden id="content-2"></div>
+                <div hidden id="content-3"></div>
+                <div hidden id="content-4"></div>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="./js/Controlador.js"></script>
+</body>
+</html>

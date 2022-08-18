@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "nombre":"Silla",
+        "imagen": "./multimedia/Silla.jpg",
+        "precio": 500
+    },
+    {
+        "id":2,
+        "nombre":"Lamina",
+        "imagen": "./multimedia/Lamina.jpg",
+        "precio": 150
+    
+    },
+    {
+        "id":3,
+        "nombre":"Serrucho",
+        "imagen": "./multimedia/Serrucho.jpg",
+        "precio": 200
+    }
+    
+]

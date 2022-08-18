@@ -1,0 +1,22 @@
+[
+    {
+        "id":"1",
+        "nombre":"Silla El Sause",
+        "imagen": "./multimedia/Silla.jpg",
+        "numero": "9898-1212"
+    },
+    {
+        "id":"2",
+        "nombre":"Lamina El Sause",
+        "imagen": "./multimedia/Lamina.jpg",
+        "numero": "9898-1212"
+    
+    },
+    {
+        "id":"3",
+        "nombre":"Serrucho Sause",
+        "imagen": "./multimedia/Serrucho.jpg",
+        "numero": "9898-1212"
+    }
+    
+]

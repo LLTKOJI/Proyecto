@@ -1,0 +1,20 @@
+[
+        {
+            "Nombre":"Larach",
+            "direccion":"Ubicado en la Kennedy"
+    
+        },
+        {
+            "Nombre":"Ferromax",
+            "direccion":"Ubicado en la Bvd.Morazan"
+        },
+        {
+            "Nombre":"Alutech",
+            "direccion":"Ubicado en el CityMall"
+        },
+        {
+            "Nombre":"Decora",
+            "direccion":"Ubicado en el anillo"
+        }
+    
+]
